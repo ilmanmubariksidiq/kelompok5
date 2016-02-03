@@ -17,6 +17,7 @@
 		
 		{{ stylesheet_link("css/bootstrap-multiselect.css") }}
 		{{ javascript_include("js/bootstrap-multiselect.js") }}
+		{{ stylesheet_link("css/bootstrap-datepicker3.css") }}
     </head>
     <body>
         <div class="container">
