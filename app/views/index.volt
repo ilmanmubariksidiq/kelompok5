@@ -73,6 +73,7 @@
 				{{ content() }}
 					</div>
 						</div>
+							</div>
 				
 				
 				
