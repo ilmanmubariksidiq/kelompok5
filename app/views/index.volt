@@ -9,6 +9,7 @@
 		{{ stylesheet_link("css/bootstrap.min.css") }}
 		{{ stylesheet_link("css/jquery-ui.min.css") }}
 		{{ stylesheet_link("css/simple-sidebar.css") }}
+		{{ stylesheet_link("font-awesome-4.5.0/css/font-awesome.min.css") }}
     </head>
     <body>
         <div class="container">
