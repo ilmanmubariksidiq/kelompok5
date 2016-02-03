@@ -56,6 +56,7 @@
 						</li>
 						<li { if selectmenu == "Date" }class="active"{ endif }>
 						<a href="/kelompok/date"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-calendar-plus-o fa-stack-1x"></i></span>Date</a>
+						</li>
 						
         <div class="container">
             {{ content() }}
