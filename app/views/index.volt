@@ -67,6 +67,13 @@
 				</div>
 				
 				<div id="page-content-wrapper">
+				
+				
+				
+				
+				
+				
+				</div>
         <div class="container">
             {{ content() }}
         
