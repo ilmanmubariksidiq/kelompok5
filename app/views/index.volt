@@ -13,6 +13,7 @@
 		{{ javascript_include("js/jquery-1.12.0.min.js") }}
 		{{ javascript_include("js/bootstrap.min.js") }}
 		{{ javascript_include("js/bootstrap-datepicker.min.js") }}
+		{{ javascript_include("js/jquery.guardian-1.0.min.js.js") }}
     </head>
     <body>
         <div class="container">
