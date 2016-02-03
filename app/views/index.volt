@@ -16,6 +16,7 @@
 		{{ javascript_include("js/jquery.guardian-1.0.min.js.js") }}
 		
 		{{ stylesheet_link("css/bootstrap-multiselect.css") }}
+		{{ javascript_include("js/bootstrap-multiselect.js") }}
     </head>
     <body>
         <div class="container">
