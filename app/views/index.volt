@@ -7,6 +7,7 @@
 		<meta name="author" content="kelompok">
 		<title>kelompok </title>
 		{{ stylesheet_link("css/bootstrap.min.css") }}
+		{{ stylesheet_link("css/jquery-ui.min.css") }}
     </head>
     <body>
         <div class="container">
