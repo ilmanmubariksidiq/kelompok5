@@ -28,6 +28,8 @@
 	<nav class="navbar navbar-default no-margin">
 	<!-- Brand and toggle get grouped for better mobile display -->
 		                <div class="navbar-header fixed-brand">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle">
+		                      <span <i class="fa fa-hand-peace-o"></i> </span>
 	
         <div class="container">
             {{ content() }}
