@@ -42,6 +42,9 @@
 									<li class="active" ><button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"> 
 										<span <i class="fa fa-hand-peace-o"></i> </span></button></li>
 		                            </ul>
+									
+									</div>
+						<!-- bs-example-navbar-collapse-1 -->
 
 	
         <div class="container">
