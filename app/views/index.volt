@@ -54,6 +54,7 @@
 						<li { if selectmenu == "Gallery" }class="active"{ endif }>
 		                    <a href="#"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-picture-o fa-stack-1x"></i></span>Gallery</a>
 						</li>
+						<li { if selectmenu == "Date" }class="active"{ endif }>
 						
         <div class="container">
             {{ content() }}
