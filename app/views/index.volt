@@ -8,6 +8,7 @@
 		<title>kelompok </title>
 		{{ stylesheet_link("css/bootstrap.min.css") }}
 		{{ stylesheet_link("css/jquery-ui.min.css") }}
+		{{ stylesheet_link("css/simple-sidebar.css") }}
     </head>
     <body>
         <div class="container">
