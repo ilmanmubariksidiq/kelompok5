@@ -35,6 +35,9 @@
 							
 							</div>
 						<!-- navbar header-->
+						
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		                            <ul class="nav navbar-nav">
 
 	
         <div class="container">
