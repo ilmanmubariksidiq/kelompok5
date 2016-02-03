@@ -30,6 +30,8 @@
 		                <div class="navbar-header fixed-brand">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle">
 		                      <span <i class="fa fa-hand-peace-o"></i> </span>
+							  </button>
+							{{ link_to('','<i class="fa fa-reddit-alien"></i> Kelompok 5', 'class': 'navbar-brand') }}
 	
         <div class="container">
             {{ content() }}
