@@ -70,6 +70,7 @@
 					<div class="container-fluid xyz">
 						<div class="row">
 							<div class="col-lg-12">
+				{{ content() }}
 				
 				
 				
@@ -78,7 +79,7 @@
 				
 				</div>
         <div class="container">
-            {{ content() }}
+            
         
     </body>
 </html>
