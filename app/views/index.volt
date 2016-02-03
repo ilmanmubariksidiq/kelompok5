@@ -19,8 +19,14 @@
 		{{ javascript_include("js/bootstrap-multiselect.js") }}
 		{{ stylesheet_link("css/bootstrap-datepicker3.css") }}
 		{{ stylesheet_link("css/guardian.css") }}
-    </head>
-    <body>
+    
+	
+	</head>
+    
+	
+	<body>
+	<nav class="navbar navbar-default no-margin">
+	
         <div class="container">
             {{ content() }}
         
