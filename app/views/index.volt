@@ -61,6 +61,7 @@
 						<a href="/kelompok/tabel"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-bolt fa-stack-1x"></i></span>Tabel</a>
 						</li>
 						<li { if selectmenu == "Form " }class="active"{ endif }>
+						<a href="/kelompok/form"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>
 						
         <div class="container">
             {{ content() }}
