@@ -52,7 +52,8 @@
 					<ul class="sidebar-nav nav-pills nav-stacked" id="menu">
 						<br></br>
 						<li { if selectmenu == "Gallery" }class="active"{ endif }>
-		                    <a href="#"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-picture-o fa-stack-1x"></i></span>Gallery</a>  
+		                    <a href="#"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-picture-o fa-stack-1x"></i></span>Gallery</a>
+						</li>
 						
         <div class="container">
             {{ content() }}
