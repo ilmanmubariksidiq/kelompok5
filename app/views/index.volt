@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="kelompok">
 		<title>kelompok </title>
+		{{ stylesheet_link("css/bootstrap.min.css") }}
     </head>
     <body>
         <div class="container">
