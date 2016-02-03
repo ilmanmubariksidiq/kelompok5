@@ -47,6 +47,8 @@
 						<!-- bs-example-navbar-collapse-1 -->
 	</nav>
 	<div id="wrapper">
+						<!-- Sidebar -->
+		        <div id="sidebar-wrapper">
 	
         <div class="container">
             {{ content() }}
