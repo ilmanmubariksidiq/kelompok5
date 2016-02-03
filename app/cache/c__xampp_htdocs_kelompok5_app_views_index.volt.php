@@ -65,8 +65,19 @@
 						</li>
 					</ul>	
 				</div>
-        <div class="container">
-            <?php echo $this->getContent(); ?>
+				
+				<div id="page-content-wrapper">
+					<div class="container-fluid xyz">
+						<div class="row">
+							<div class="col-lg-12">
+				<?php echo $this->getContent(); ?>
+					</div>
+						</div>
+							</div>
+				</div>
+	</div>
+       
+            
         
     </body>
 </html>

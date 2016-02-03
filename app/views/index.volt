@@ -44,7 +44,7 @@
 		                            </ul>
 									
 									</div>
-						<!-- bs-example-navbar-collapse-1 -->
+						
 	</nav>
 	<div id="wrapper">
 						<!-- Sidebar -->
@@ -77,7 +77,7 @@
 				</div>
 	</div>
        
-            
+       {{ javascript_include("js/sidebar_menu.js") }}     
         
     </body>
 </html>
