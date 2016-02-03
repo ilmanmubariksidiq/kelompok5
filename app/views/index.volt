@@ -64,7 +64,7 @@
 						<a href="/kelompok/form"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>
 						</li>
 					</ul>	
-						
+				</div>
         <div class="container">
             {{ content() }}
         
