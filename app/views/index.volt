@@ -49,7 +49,9 @@
 	<div id="wrapper">
 						<!-- Sidebar -->
 		        <div id="sidebar-wrapper">
-	
+					<ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+						<br></br>
+						
         <div class="container">
             {{ content() }}
         
