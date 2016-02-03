@@ -11,6 +11,7 @@
 		{{ stylesheet_link("css/simple-sidebar.css") }}
 		{{ stylesheet_link("font-awesome-4.5.0/css/font-awesome.min.css") }}
 		{{ javascript_include("js/jquery-1.12.0.min.js") }}
+		{{ javascript_include("js/bootstrap.min.js") }}
     </head>
     <body>
         <div class="container">
