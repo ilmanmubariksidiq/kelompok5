@@ -45,7 +45,7 @@
 									
 									</div>
 						<!-- bs-example-navbar-collapse-1 -->
-
+	</nav>
 	
         <div class="container">
             {{ content() }}
