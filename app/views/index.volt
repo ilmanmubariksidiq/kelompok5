@@ -59,7 +59,7 @@
 						</li>
 						<li { if selectmenu == "Tabel" }class="active"{ endif }>
 						<a href="/kelompok/tabel"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-bolt fa-stack-1x"></i></span>Tabel</a>
-						
+						</li>
 						
         <div class="container">
             {{ content() }}
