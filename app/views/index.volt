@@ -32,6 +32,10 @@
 		                      <span <i class="fa fa-hand-peace-o"></i> </span>
 							  </button>
 							{{ link_to('','<i class="fa fa-reddit-alien"></i> Kelompok 5', 'class': 'navbar-brand') }}
+							
+							</div>
+						<!-- navbar header-->
+
 	
         <div class="container">
             {{ content() }}
