@@ -14,6 +14,8 @@
 		{{ javascript_include("js/bootstrap.min.js") }}
 		{{ javascript_include("js/bootstrap-datepicker.min.js") }}
 		{{ javascript_include("js/jquery.guardian-1.0.min.js.js") }}
+		
+		{{ stylesheet_link("css/bootstrap-multiselect.css") }}
     </head>
     <body>
         <div class="container">
