@@ -58,7 +58,7 @@
 		                    <a href="kelompok5/date"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-calendar-plus-o fa-stack-1x"></i></span>Date</a>      
 					</li>
 					<li { if selectmenu == "Tabel" }class="active"{ endif }>
-		                    <a href="#"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-bolt fa-stack-1x"></i></span>Tabel</a>
+		                    <a href="kelompok5/tabel"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-bolt fa-stack-1x"></i></span>Tabel</a>
 					</li>
 					<li { if selectmenu == "Form " }class="active"{ endif }>
 		                    <a href="#"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>      
