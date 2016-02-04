@@ -13,15 +13,12 @@
 		{{ javascript_include("js/jquery-1.12.0.min.js") }}
 		{{ javascript_include("js/bootstrap.min.js") }}
 		{{ javascript_include("js/bootstrap-datepicker.min.js") }}
-		{{ javascript_include("js/jquery.guardian-1.0.min.js.js") }}
 		
 		{{ stylesheet_link("css/bootstrap-multiselect.css") }}
 		{{ javascript_include("js/bootstrap-multiselect.js") }}
 		{{ stylesheet_link("css/bootstrap-datepicker3.css") }}
 		{{ stylesheet_link("css/guardian.css") }}
-    
-	
-	</head>
+    </head>
     
 	
 	<body>

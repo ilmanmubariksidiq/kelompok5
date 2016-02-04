@@ -19,9 +19,7 @@
 		<?php echo $this->tag->javascriptInclude('js/bootstrap-multiselect.js'); ?>
 		<?php echo $this->tag->stylesheetLink('css/bootstrap-datepicker3.css'); ?>
 		<?php echo $this->tag->stylesheetLink('css/guardian.css'); ?>
-    
-	
-	</head>
+    </head>
     
 	
 	<body>
@@ -44,7 +42,7 @@
 		                            </ul>
 									
 									</div>
-						<!-- bs-example-navbar-collapse-1 -->
+						
 	</nav>
 	<div id="wrapper">
 						<!-- Sidebar -->
@@ -55,13 +53,13 @@
 		                    <a href="#"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-picture-o fa-stack-1x"></i></span>Gallery</a>
 						</li>
 						<li { if selectmenu == "Date" }class="active"{ endif }>
-						<a href="/kelompok/date"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-calendar-plus-o fa-stack-1x"></i></span>Date</a>
+							<a href="/kelompok/date"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-calendar-plus-o fa-stack-1x"></i></span>Date</a>
 						</li>
 						<li { if selectmenu == "Tabel" }class="active"{ endif }>
-						<a href="/kelompok/tabel"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-bolt fa-stack-1x"></i></span>Tabel</a>
+							<a href="/kelompok/tabel"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-bolt fa-stack-1x"></i></span>Tabel</a>
 						</li>
 						<li { if selectmenu == "Form " }class="active"{ endif }>
-						<a href="/kelompok/form"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>
+							<a href="/kelompok/form"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>
 						</li>
 					</ul>	
 				</div>
@@ -77,7 +75,7 @@
 				</div>
 	</div>
        
-            
+       <?php echo $this->tag->javascriptInclude('js/sidebar_menu.js'); ?>     
         
     </body>
 </html>
