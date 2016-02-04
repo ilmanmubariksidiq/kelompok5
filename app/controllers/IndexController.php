@@ -6,6 +6,7 @@ class IndexController extends ControllerBase
     public function indexAction()
     {
          echo $this->tag->linkTo("tabel", "tabel");
+        echo $this->tag->linkTo("date", "date");
 
     }
 
