@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="kelompok">
-        <title>kelompok </title>
+        <title>kelompok</title>
 		<?php echo $this->tag->stylesheetLink('css/bootstrap.min.css'); ?>
 		<?php echo $this->tag->stylesheetLink('css/jquery-ui.min.css'); ?>
 		<?php echo $this->tag->stylesheetLink('css/simple-sidebar.css'); ?>
@@ -30,7 +30,7 @@
 		                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle">
 		                      <span <i class="fa fa-hand-peace-o"></i> </span>
 		                    </button>
-							<?php echo $this->tag->linkTo(array('', '<i class="fa fa-reddit-alien"></i> Kelompok 5', 'class' => 'navbar-brand')); ?>
+							<?php echo $this->tag->linkTo(array('', '<i class="fa fa-reddit-alien"></i> Kelompok5', 'class' => 'navbar-brand')); ?>
 		                     
 		                </div>
 						<!-- navbar header-->

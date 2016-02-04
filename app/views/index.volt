@@ -45,9 +45,11 @@
 						<!-- bs-example-navbar-collapse-1 -->
 		    </nav>
 		    <div id="wrapper">
-		        <!-- Sidebar -->
+		        
+				<!-- Sidebar -->
 		        <div id="sidebar-wrapper">
 				<ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+					<br></br>
 					<br></br>
 					<li { if selectmenu == "Gallery" }class="active"{ endif }>
 		                    <a href="#"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-picture-o fa-stack-1x"></i></span>Gallery</a>      
