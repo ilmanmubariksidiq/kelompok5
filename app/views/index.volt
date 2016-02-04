@@ -61,7 +61,7 @@
 		                    <a href="kelompok5/tabel"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-bolt fa-stack-1x"></i></span>Tabel</a>
 					</li>
 					<li { if selectmenu == "Form " }class="active"{ endif }>
-		                    <a href="#"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>      
+		                    <a href="kelompok/form"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>      
 					</li>
 				</ul>	
 		        </div><!-- /#sidebar-wrapper -->
