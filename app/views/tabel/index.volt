@@ -9,3 +9,8 @@
 			width:700px;
 		}
 	}
+	table{
+		border-collapse:collapse;
+		border:1px solid #333;
+		width:100%;
+	}
