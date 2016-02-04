@@ -7,6 +7,7 @@ class IndexController extends ControllerBase
     {
          echo $this->tag->linkTo("tabel", "tabel");
         echo $this->tag->linkTo("date", "date");
+        echo $this->tag->linkTo("form", "form");
 
     }
 
