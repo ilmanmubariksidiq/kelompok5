@@ -47,3 +47,9 @@
 	    <td>jl.mudun loba leugok no.666</td>
 	    <td>cikijing kaler</td>
 	  </tr>
+	  <tr>
+	    <td>maudy khaula putri</td>
+	    <td>jambi 07-08-1997</td>
+	    <td>jl.sepi dan sunyi no.88</td>
+	    <td>bandung</td>
+	  </tr>
