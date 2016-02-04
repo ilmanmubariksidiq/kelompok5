@@ -18,4 +18,5 @@
 
 <div class="container">
 
-<div class="form-group"> 
+<div class="form-group">
+	<label>Name<span class="red">*</span></label>
