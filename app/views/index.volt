@@ -52,10 +52,10 @@
 					<br></br>
 					<br></br>
 					<li { if selectmenu == "Gallery" }class="active"{ endif }>
-		                    <a href="#"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-picture-o fa-stack-1x"></i></span>Gallery</a>      
+		                    <a href="kelompok5/gallery"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-picture-o fa-stack-1x"></i></span>Gallery</a>      
 					</li>
 					<li { if selectmenu == "Date" }class="active"{ endif }>
-		                    <a href="#"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-calendar-plus-o fa-stack-1x"></i></span>Date</a>      
+		                    <a href=""><span class="fa-stack fa-lg pull-left"> <i class="fa fa-calendar-plus-o fa-stack-1x"></i></span>Date</a>      
 					</li>
 					<li { if selectmenu == "Tabel" }class="active"{ endif }>
 		                    <a href="#"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-bolt fa-stack-1x"></i></span>Tabel</a>
