@@ -35,3 +35,9 @@
 	    <td>jl.penuh belokan </td>
 	    <td>bandung</td>
 	  </tr>
+	  <tr>
+	    <td>bendra wardhana</td>
+	    <td>Amerika serikat 08-07-1997 </td>
+	    <td>jl.rusak penuh lubang no.8</td>
+	    <td>bandung</td>
+	  </tr>
