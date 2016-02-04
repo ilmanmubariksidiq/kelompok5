@@ -21,3 +21,11 @@
 	</style>
 	
 <table class="rwd-table">
+<thead>
+		 <tr>
+		   <th>nama</th>
+		   <th>tempat tanggal lahir </th>
+		   <th>alamat rumah </th>
+		   <th>tempat tinggal sekarang </th>
+		 </tr>
+	  </thead>
