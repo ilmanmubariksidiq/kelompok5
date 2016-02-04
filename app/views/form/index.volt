@@ -25,3 +25,4 @@
 
 <div class="form-group">
 	<label>Email<span class="red">*</span></label>
+	<input class="form-control" name="email" required="required" type="email">
