@@ -41,3 +41,9 @@
 	    <td>jl.rusak penuh lubang no.8</td>
 	    <td>bandung</td>
 	  </tr>
+	  <tr>
+	    <td>martin</td>
+	    <td>kalanga 21-03-1997 </td>
+	    <td>jl.mudun loba leugok no.666</td>
+	    <td>cikijing kaler</td>
+	  </tr>
