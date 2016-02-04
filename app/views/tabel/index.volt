@@ -53,3 +53,11 @@
 	    <td>jl.sepi dan sunyi no.88</td>
 	    <td>bandung</td>
 	  </tr>
+	  <tr>
+	    <td>doni saputra</td>
+	    <td>Ausralia 08-08-1997</td>
+	    <td>jl.sepi sekali no.08</td>
+	    <td>bandung</td>
+	  </tr>
+	  
+	</table>
