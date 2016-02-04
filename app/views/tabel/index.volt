@@ -14,3 +14,8 @@
 		border:1px solid #333;
 		width:100%;
 	}
+	th, td{
+		border:1px solid #333;
+		padding:10px;
+	}
+	</style>
