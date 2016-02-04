@@ -19,3 +19,5 @@
 		padding:10px;
 	}
 	</style>
+	
+<table class="rwd-table">
