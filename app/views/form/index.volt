@@ -5,20 +5,13 @@
 
 <style>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container
+{
+	width: 400px;
+	padding: 10px;
+	border: 2px solid #000
+	border-radius: 10px;
+	margin : auto;
+}
 
 </style>
