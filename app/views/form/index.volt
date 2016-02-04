@@ -31,4 +31,5 @@
 <div class="form-group">
 	<label>Phone</label>
 	<input class="form-control" name="phone" type="tel">
+</div>
 	
