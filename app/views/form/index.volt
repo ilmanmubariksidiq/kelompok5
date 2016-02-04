@@ -23,3 +23,4 @@
 	<input class="form-control" name="name" required="required" type="text">
 </div>
 
+<div class="form-group">
