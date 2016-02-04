@@ -16,3 +16,9 @@
         <button class="btn btn-primary " name="submit" type="submit">Submit</button>
       </div>
     </form>
+	<!-- Form code ends --> 
+
+    </div>
+  </div>    
+ </div>
+</div>
