@@ -13,7 +13,6 @@
 		<?php echo $this->tag->javascriptInclude('js/jquery-1.12.0.min.js'); ?>
 		<?php echo $this->tag->javascriptInclude('js/bootstrap.min.js'); ?>
 		<?php echo $this->tag->javascriptInclude('js/bootstrap-datepicker.min.js'); ?>
-		<?php echo $this->tag->javascriptInclude('js/jquery.guardian-1.0.min.js.js'); ?>
 		
 		<?php echo $this->tag->stylesheetLink('css/bootstrap-multiselect.css'); ?>
 		<?php echo $this->tag->javascriptInclude('js/bootstrap-multiselect.js'); ?>
