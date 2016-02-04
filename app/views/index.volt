@@ -14,7 +14,6 @@
 		{{ javascript_include("js/jquery-1.12.0.min.js") }}
 		{{ javascript_include("js/bootstrap.min.js") }}
 		{{ javascript_include("js/bootstrap-datepicker.min.js") }}
-		{{ javascript_include("js/jquery.guardian-1.0.min.js.js") }}
 		
 		{{ stylesheet_link("css/bootstrap-multiselect.css") }}
 		{{ javascript_include("js/bootstrap-multiselect.js") }}
@@ -54,13 +53,13 @@
 		                    <a href="#"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-picture-o fa-stack-1x"></i></span>Gallery</a>      
 					</li>
 					<li { if selectmenu == "Date" }class="active"{ endif }>
-		                    <a href="/kelompok/date"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-calendar-plus-o fa-stack-1x"></i></span>Date</a>      
+		                    <a href="#"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-calendar-plus-o fa-stack-1x"></i></span>Date</a>      
 					</li>
 					<li { if selectmenu == "Tabel" }class="active"{ endif }>
-		                    <a href="/kelompok/tabel"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-bolt fa-stack-1x"></i></span>Tabel</a>
+		                    <a href="#"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-bolt fa-stack-1x"></i></span>Tabel</a>
 					</li>
 					<li { if selectmenu == "Form " }class="active"{ endif }>
-		                    <a href="/kelompok/form"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>      
+		                    <a href="#"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>      
 					</li>
 				</ul>	
 		        </div><!-- /#sidebar-wrapper -->
@@ -70,15 +69,12 @@
 		                <div class="row">
 		                    <div class="col-lg-12">
         {{ content() }}
-													</div>
-								                </div>
-								            </div>
-								        </div>
-								        <!-- /#page-content-wrapper -->
-
-								    </div>
-								    <!-- /#wrapper -->
-								    <!-- jQuery -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+								    
 
 								{{ javascript_include("js/sidebar_menu.js") }}
     </body>
