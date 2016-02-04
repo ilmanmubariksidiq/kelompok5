@@ -64,7 +64,7 @@
 		                    <a href="form"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>      
 					</li>
 				</ul>	
-		        </div><!-- /#sidebar-wrapper -->
+		        </div>
 		        <!-- Page Content -->
 		        <div id="page-content-wrapper">
 		            <div class="container-fluid xyz">

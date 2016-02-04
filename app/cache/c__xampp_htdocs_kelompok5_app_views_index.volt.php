@@ -52,16 +52,16 @@
 					<br></br>
 					<br></br>
 					<li { if selectmenu == "Gallery" }class="active"{ endif }>
-		                    <a href="kelompok5/gallery"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-picture-o fa-stack-1x"></i></span>Gallery</a>      
+		                    <a href="gallery"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-picture-o fa-stack-1x"></i></span>Gallery</a>      
 					</li>
 					<li { if selectmenu == "Date" }class="active"{ endif }>
-		                    <a href="kelompok5/date"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-calendar-plus-o fa-stack-1x"></i></span>Date</a>      
+		                    <a href="date"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-calendar-plus-o fa-stack-1x"></i></span>Date</a>      
 					</li>
 					<li { if selectmenu == "Tabel" }class="active"{ endif }>
-		                    <a href="kelompok5/tabel"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-bolt fa-stack-1x"></i></span>Tabel</a>
+		                    <a href="tabel"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-bolt fa-stack-1x"></i></span>Tabel</a>
 					</li>
 					<li { if selectmenu == "Form " }class="active"{ endif }>
-		                    <a href="kelompok/form"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>      
+		                    <a href="form"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>      
 					</li>
 				</ul>	
 		        </div><!-- /#sidebar-wrapper -->
