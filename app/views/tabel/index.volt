@@ -29,3 +29,9 @@
 		   <th>tempat tinggal sekarang </th>
 		 </tr>
 	  </thead>
+	  <tr>
+	    <td>Ilman Mubarik Sidiq</td>
+	    <td>Bandung 11-01-1996</td>
+	    <td>jl.penuh belokan </td>
+	    <td>bandung</td>
+	  </tr>
