@@ -1,6 +1,6 @@
 <?php
 
-class IndexController extends ControllerBase
+class isiController extends ControllerBase
 {
 
     public function indexAction()

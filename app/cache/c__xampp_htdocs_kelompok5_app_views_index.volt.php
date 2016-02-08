@@ -35,10 +35,9 @@
 		                </div>
 						<!-- navbar header-->
 
-		                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		                            <ul class="nav navbar-nav">
-									
-		                                <li class="active" ><button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"> 
+										<li class="active" ><button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"> 
 										<span <i class="fa fa-hand-peace-o"></i> </span></button></li>
 		                            </ul>
 		                </div>
@@ -61,10 +60,10 @@
 		                    <a href="tabel"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-bolt fa-stack-1x"></i></span>Tabel</a>
 					</li>
 					<li { if selectmenu == "Form " }class="active"{ endif }>
-		                    <a href="form"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>      
+		                    <a href="form"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>						
 					</li>
 				</ul>	
-		        </div><!-- /#sidebar-wrapper -->
+		        </div>
 		        <!-- Page Content -->
 		        <div id="page-content-wrapper">
 		            <div class="container-fluid xyz">
@@ -79,5 +78,7 @@
 								    
 
 								<?php echo $this->tag->javascriptInclude('js/sidebar_menu.js'); ?>
+		
+		
     </body>
 </html>

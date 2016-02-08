@@ -7,18 +7,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="kelompok">
         <title>kelompok</title>
-		{{ stylesheet_link("css/bootstrap.min.css") }}
-		{{ stylesheet_link("css/jquery-ui.min.css") }}
-		{{ stylesheet_link("css/simple-sidebar.css") }}
-		{{ stylesheet_link("font-awesome-4.5.0/css/font-awesome.min.css") }}
-		{{ javascript_include("js/jquery-1.12.0.min.js") }}
-		{{ javascript_include("js/bootstrap.min.js") }}
-		{{ javascript_include("js/bootstrap-datepicker.min.js") }}
+		<?php echo $this->tag->stylesheetLink('css/bootstrap.min.css'); ?>
+		<?php echo $this->tag->stylesheetLink('css/jquery-ui.min.css'); ?>
+		<?php echo $this->tag->stylesheetLink('css/simple-sidebar.css'); ?>
+		<?php echo $this->tag->stylesheetLink('font-awesome-4.5.0/css/font-awesome.min.css'); ?>
+		<?php echo $this->tag->javascriptInclude('js/jquery-1.12.0.min.js'); ?>
+		<?php echo $this->tag->javascriptInclude('js/bootstrap.min.js'); ?>
+		<?php echo $this->tag->javascriptInclude('js/bootstrap-datepicker.min.js'); ?>
 		
-		{{ stylesheet_link("css/bootstrap-multiselect.css") }}
-		{{ javascript_include("js/bootstrap-multiselect.js") }}
-		{{ stylesheet_link("css/bootstrap-datepicker3.css") }}
-		{{ stylesheet_link("css/guardian.css") }}
+		<?php echo $this->tag->stylesheetLink('css/bootstrap-multiselect.css'); ?>
+		<?php echo $this->tag->javascriptInclude('js/bootstrap-multiselect.js'); ?>
+		<?php echo $this->tag->stylesheetLink('css/bootstrap-datepicker3.css'); ?>
+		<?php echo $this->tag->stylesheetLink('css/guardian.css'); ?>
 		
 			
 	
@@ -30,7 +30,7 @@
 		                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle">
 		                      <span <i class="fa fa-hand-peace-o"></i> </span>
 		                    </button>
-							{{ link_to('','<i class="fa fa-reddit-alien"></i> Kelompok5', 'class': 'navbar-brand') }}
+							<?php echo $this->tag->linkTo(array('', '<i class="fa fa-reddit-alien"></i> Kelompok5', 'class' => 'navbar-brand')); ?>
 		                     
 		                </div>
 						<!-- navbar header-->
@@ -41,7 +41,6 @@
 										<span <i class="fa fa-hand-peace-o"></i> </span></button></li>
 		                            </ul>
 		                </div>
-						
 						<!-- bs-example-navbar-collapse-1 -->
 		    </nav>
 		    <div id="wrapper">
@@ -61,7 +60,7 @@
 		                    <a href="tabel"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-bolt fa-stack-1x"></i></span>Tabel</a>
 					</li>
 					<li { if selectmenu == "Form " }class="active"{ endif }>
-		                    <a href="form"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>						
+		                    <a href="form"><span class="fa-stack fa-lg pull-left"> <i class="fa fa-folder-o fa-stack-1x"></i></span>Form </a>      
 					</li>
 				</ul>	
 		        </div>
@@ -70,7 +69,7 @@
 		            <div class="container-fluid xyz">
 		                <div class="row">
 		                    <div class="col-lg-12">
-        {{ content() }}
+        <?php echo $this->getContent(); ?>
 							</div>
 						</div>
 					</div>
@@ -78,8 +77,6 @@
 			</div>
 								    
 
-								{{ javascript_include("js/sidebar_menu.js") }}
-		{% block content %}
-		{% endblock %}
+								<?php echo $this->tag->javascriptInclude('js/sidebar_menu.js'); ?>
     </body>
 </html>
